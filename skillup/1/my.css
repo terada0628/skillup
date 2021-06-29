@@ -14,6 +14,7 @@ header {
   width: 1024px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .logo {
@@ -21,7 +22,10 @@ header {
 }
 
 .nav-item {
+  font-size: 16px;
+  margin: 0 30px;
+  line-height: 70px;
   list-style: none;
-  color: white;
+  color: #fafafa;
   display: inline-block;
 }

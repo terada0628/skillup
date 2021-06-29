@@ -10,11 +10,18 @@ header {
   background-color: #ec715f;
 }
 
-.header-logo {
+.header-group {
+  width: 1024px;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  height: 50px;
+  height: 70px;
+}
+
+.nav-item {
+  list-style: none;
+  color: white;
+  display: inline-block;
 }

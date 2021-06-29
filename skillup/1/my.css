@@ -77,3 +77,47 @@ header {
   text-align: center;
   padding: 30px 0;
 }
+
+.portfolio-img {
+  width: 920px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.img1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.img2 {
+  background-image: url(img/websuku.png);
+}
+.img3 {
+  background-image: url(img/write.jpg);
+}
+.img4 {
+  background-image: url(img/webcamp.png);
+}
+.img5 {
+  background-image: url(img/talk.jpg);
+}
+.img6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.production {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+}
+
+.production:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}

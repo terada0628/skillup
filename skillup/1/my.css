@@ -42,6 +42,11 @@ header {
   display: inline-block;
 }
 
+.nav-item a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
 .main-visual-text {
   padding-top: 200px;
   font-size: 64px;
@@ -157,4 +162,89 @@ header {
 .icon {
   font-size: 60px;
   margin: 0 auto;
+}
+
+.profile {
+  background-color: #eceff1;
+}
+
+.face-contents {
+  width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.face {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+}
+
+.right-content {
+  width: 50%;
+}
+
+.contact-contents {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.infomation {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.infomation-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.information-text {
+  text-decoration: underline;
+}
+
+.mail {
+  padding-bottom: 20px;
+}
+
+.sns-content {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.sns-title {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.sns-icon {
+  font-size: 50px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.sns-icon:last-child {
+  padding-right: 0;
+}
+
+footer {
+  height: 60px;
+  background-color: #ec715f;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
+  line-height: 60px;
 }

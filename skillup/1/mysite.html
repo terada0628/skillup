@@ -8,28 +8,27 @@
   </head>
 
   <body>
-
     <header>
       <div class="container header-group">
-        <a><img class="logo" src="img/logo.png" alt="logo"></a>
+        <a href="#mv"><img class="logo" src="img/logo.png" alt="logo"></a>
         <nav>
           <ul class="nav-list">
-           <li class="nav-item">Portfolio</li>
-           <li class="nav-item">Feature</li>
-           <li class="nav-item">Profile</li>
-           <li class="nav-item">Contact</li>
+           <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+           <li class="nav-item"><a href="#feature">Feature</a></li>
+           <li class="nav-item"><a href="#profile">Profile</a></li>
+           <li class="nav-item"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <div class="container main-visual">
+
+    <div class="container main-visual" id="mv">
       <div class="main-visual-text">Lorem Ipsum</div>
       <div class="main-visual-text2">simply dummy text of the printing</div>
     </div>
 
-    <div class="container portfolio">
-
+    <div class="container portfolio" id="portfolio">
       <h2 class="heading-title">Portfolio</h2>
       <p class="heading-text">
         It is a long established fact that a reader will be distracted by the readable<br>
@@ -44,16 +43,17 @@
         <div class="img5 production"></div>
         <div class="img6 production"></div>
       </div>
-    
     </div>
 
-    <div class="container feature">
+
+    <div class="container feature" id="feature">
       <h2 class="heading-title">Feature</h2>
       <p class="heading-text">
         It is a long established fact that a reader will be distracted by the readable<br>
         content of a page when looking at its layout.<br>
         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
       </p>
+
       <div class="feature-contents">
         <div class="content">
           <i class="fab fa-fantasy-flight-games icon"></i>
@@ -69,6 +69,7 @@
             obscure Latin words, consectetur
           </p>
         </div>
+
         <div class="content">
           <i class="fas fa-desktop icon"></i>
           <h3 class="content-title">Strength2</h3>
@@ -83,6 +84,7 @@
             obscure Latin words, consectetur
           </p>
         </div>
+
         <div class="content">
           <i class="fas fa-cogs icon"></i>
           <h3 class="content-title">Strength3</h3>
@@ -97,13 +99,77 @@
             obscure Latin words, consectetur
           </p>
         </div>
+      </div>
+    </div>
 
+
+    <div class="container profile" id="profile">
+      <h2 class="heading-title">Profile</h2>
+      <p class="heading-text">
+        It is a long established fact that a reader will be distracted by the readable<br>
+        content of a page when looking at its layout.<br>
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+      </p>
+
+      <div class="face-contents">
+        <div class="left-content">
+          <div class="face"></div>
+        </div>
+        <div class="right-content">
+          <h3 class="content-title">MyName</h3>
+          <p class="content-text">
+            Contrary to popular belief, Lorem Ipsum is not simply random<br>
+            text. It has roots in a piece of classical Latin literature from 45<br>
+            BC, making it over 2000 years old. Richard McClintock, a Latin<br>
+            professor at Hampden-Sydney College
+          </p>
+          <h3 class="content-title">MySkills</h3>
+          <p class="content-text">HTML/CSS,JavaScript,JQuery,PhotsShop</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container contact" id="contact">
+      <h2 class="heading-title">Contact</h2>
+      <p class="heading-text">
+        It is a long established fact that a reader will be distracted by the readable<br>
+        content of a page when looking at its layout.<br>
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+      </p>
+      
+      <div class="contact-contents">
+        <div class="left-content">
+          <div class="infomation">
+            <div class="mail">
+              <h3 class="infomation-title">Mail</h3>
+              <a class="infomation-text" href="xxx@xxx.com">xxx@xxx.com</a>
+            </div>
+            <div class="tel">
+              <h3 class="infomation-title">Tel</h3>
+              <a class="infomation-text" href="00000000000">000-0000-0000</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="right-content">
+          <div class="sns-content">
+            <h3 class="sns-title">SNS</h3>
+            <i class="fab fa-facebook-f sns-icon"></i>
+            <i class="fab fa-twitter sns-icon"></i>
+            <i class="fab fa-instagram sns-icon"></i>
+          </div>
+        </div>
       </div>
 
 
     </div>
 
-    <footer></footer>
+
+
+    <footer>
+      <p class="footer-text">©︎ 2017 WebCamp</p>
+    </footer>
 
   </body>
 </html>
